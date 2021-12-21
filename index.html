@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Burning Man</title>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="img/logo.png" alt="Burning Man" class="logo">
+				<ul class="menu">
+					<li>
+						<a href="#">
+							Домой
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							О нас
+						</a>
+					</li>
+				</ul>
+				<a href="tel:+380953217911" class="tel">
+					095 32 17 911
+				</a>
+			</div>
+			<div class="offer">
+				<p>Самые качественные материалы</p>
+				<h1>
+					"Savil 2000"
+				</h1>
+				<a href="#" class="btn">Заказать!</a>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<h2>О нашей компании</h2>
+			<div class="description">
+				<div class="desc-left">
+					<h3>Команда профессионалов</h3>
+					<p>
+						На компанию работают только самые отборные, замечательные, невообразимые и умелые специалисты,
+						которые и обеспечивают лучшее в
+						мире качество наших изделий. Мало того что они работают с удовольствием и сверхурочно так еще и
+						не любят ходить в отпуск, потому что
+						работа для них прежде всего. Когда приходит время идти домой, все с грустью начинают ждать
+						завтрешнего дня.
+					</p>
+				</div>
+				<div class="desc-right">
+					<h3>Качество продукции</h3>
+					<p>
+						Всемирной ассоциацией картоногистов было признано: Картон компании "Savil2000" признан самым
+						лучшим на планете. Мы считаем что если
+						где-то на других планетах есть жизнь, и эта жизнь тоже является развитой цивилизацией, и если
+						они тоже изготавливают картон, то
+						наш картон все равно будет лушче. Если не учитывать теорему Ферми, то можно с полной
+						уверенностью утверждать: наш картон самый
+						качественный во вселенной и повторить такое изделие не представляется возможным.
+					</p>
+				</div>
+			</div>
+			<div class="gallery">
+				<img src="img/img-sasha.jpg" alt="Event photo 1" id="sasha">
+				<img src="img/img-denis.jpg" alt="Event photo 2">
+				<img src="img/kachestvo.jpg" alt="Event photo 3">
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-text">
+				<p>
+					©2021 Дмитрук Дмитрий
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	function slowScroll(id) {
+		$('html, body').animate({
+			scrollTop: $(id).offset().top
+		}, 500)
+	}
+
+	/* $(document).on("scroll", function () {
+		if ($(window).scrollTop() === 0)
+			$('header').removeClass('fixed');
+		else
+			$("header").attr('class', 'fixed');
+	}); */
+</script>
+
+</html>
